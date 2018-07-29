@@ -4,7 +4,7 @@
 <?php
 $str = $_POST["inputPassword4"];
 
-if (sha1($str) == "A85B1AAC326273A8691C80E3DDD2F28BC11BC4BD")
+if (sha1($str) == "40662a5f1e7349123c4012d827be8688d9fe013b")
 {
     header('Location: http://localhost/ctf1/level5.html');
     exit;
