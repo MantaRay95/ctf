@@ -2,7 +2,7 @@
 <body>
 <?php
 
-$str = $_POST["inputPassword2"];
+$str = $_POST["inputPassword5"];
 
 if (sha1($str) == "test")
 {
