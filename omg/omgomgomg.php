@@ -71,8 +71,10 @@ if (mysqli_num_rows($result) > 0) {
 															}
 															?>
 
-															 >Spread Anger</button>
+															Spread Anger  </button>
+
+
         </form>
     
 </div>
-</div>
+</div>     
