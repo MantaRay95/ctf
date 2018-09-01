@@ -4,7 +4,7 @@
 <?php
 $str = $_POST["inputPassword2"];
 
-if (sha1($str) == "e41218a880ccfe98633d56987f1fc2c13e5b0568")
+if (sha1($str) == "d494a21f7281d6300a76feadce1d7e1462b7dc0c")
 {
     header('Location: level3.html');
     exit;
@@ -17,10 +17,4 @@ else
 ?>
 
 </body>
-</html><?php
-/**
- * Created by PhpStorm.
- * User: Pavithra
- * Date: 7/26/2018
- * Time: 9:21 PM
- */
+</html>

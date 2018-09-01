@@ -11,7 +11,7 @@ if (sha1($str) == "test")
 }
 else
 {
-    header('Location: http://localhost/ctf/level2.html');
+    header('Location: http://localhost/ctf/level1.html');
     exit;
 }
 
