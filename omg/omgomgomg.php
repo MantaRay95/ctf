@@ -58,7 +58,7 @@ if (mysqli_num_rows($result) > 0) {
                         <label for="anger1" class="sr-only">anger</label>
                         <input type="text" class="form-control" id="anger1" name="anger1" placeholder="Your anger :P " required>
                     </div>
-                    <button type="submit" class="btn btn-primary" onclick=<?php 
+                    <button type="submit" class="btn btn-primary" onclick=<?php /*
 
                     										$str = $_POST["anger1"] = "Nothing";
                     										$sql1="INSERT INTO oh_crap (what,how)
@@ -69,7 +69,7 @@ if (mysqli_num_rows($result) > 0) {
 															} else {
 															    echo "Error: " . $sql . "<br>" . $conn->error;
 															}
-															?>
+															*/?> >
 
 															Spread Anger  </button>
 
