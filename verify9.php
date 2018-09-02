@@ -8,7 +8,7 @@ $z=0;
 $m;
 for($x=0; $x<30;$x++){
     $p = $p.sha1($str[$x]);
-    echo ($p."<br>");
+    //echo ($p."<br>");
     if($x%5 == 4){
         $m[$z] = $p;
         $z++;
