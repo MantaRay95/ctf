@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>welcome to CTF</title>
+    <title>Dashboard</title>
 
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="new.css" rel="stylesheet" type="text/css">
@@ -21,7 +21,7 @@
 
 
     .container{
-        width:60%;
+        width:80%;
     }
 
     #jumbo
@@ -61,17 +61,8 @@
         background: #000000;
         border: 3px double #CCCCCC;
         padding: 10px;
-
-
 </style>
-
-
 <body>
-
-
-
-
-
 
 <nav class="navbar navbar-inverse navbar-static-top">
 
@@ -88,15 +79,14 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                 	<li class="active"><a href="dashboard.php">Dashboard</a></li>
-                    <li><a href="index.html">Home</a></li>
+                    <!-- <li><a href="index.html">Home</a></li> -->
                     <li class=""><a href="about.html">About us</a></li>
-                    <li><a href="index.html">CTF</a></li>
+                    <!-- <li><a href="index.html">CTF</a></li> -->
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
 </nav>
-
 
 <div class="container">
 <div class="well"><h1> CTF Dashboard </h1>
@@ -109,36 +99,36 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr class="info">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level1.html';">Level 1</button></td>
         <td>
-        	<form action="/action_page.php">
+        	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
-			    <input type="email" class="form" id="email">
+			    <input class="form-control" type="email" class="form" id="email">
 			  	<button type="submit" class="btn btn-default">Submit</button>
 			  </div>
 			</form> 
         </td>
         <td>Not Captured</td>
       </tr>      
-      <tr class="success">
+      <tr class="info">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level2.html';">Level 2</button></td>
         <td>
-        	<form action="/action_page.php">
+        	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
-			    <input type="email" class="form" id="email">
+			    <input class="form-control" type="email" class="form" id="email">
 			  	<button type="submit" class="btn btn-default">Submit</button>
 			  </div>
 			</form> 
         </td>
         <td>Not Captured</td>
       </tr>
-      <tr class="danger">
+      <tr class="info">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level3.html';">Level 3</button></td>
         <td>
-        	<form action="/action_page.php">
+        	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
-			    <input type="email" class="form" id="email">
+			    <input class="form-control" type="email" class="form" id="email">
 			  	<button type="submit" class="btn btn-default">Submit</button>
 			  </div>
 			</form> 
@@ -148,9 +138,9 @@
       <tr class="info">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level4.html';">Level 4</button></td>
         <td>
-        	<form action="/action_page.php">
+        	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
-			    <input type="email" class="form" id="email">
+			    <input class="form-control" type="email" class="form" id="email">
 			  	<button type="submit" class="btn btn-default">Submit</button>
 			  </div>
 			</form> 
@@ -160,21 +150,129 @@
       <tr class="warning">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level5.html';">Level 5</button></td>
         <td>
-        	<form action="/action_page.php">
+        	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
-			    <input type="email" class="form" id="email">
+			    <input class="form-control" type="email" class="form" id="email">
 			  	<button type="submit" class="btn btn-default">Submit</button>
 			  </div>
 			</form> 
         </td>
         <td>Not Captured</td>
       </tr>
-      <tr class="active">
+      <tr class="warning">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 6</button></td>
         <td>
-        	<form action="/action_page.php">
+        	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
-			    <input type="email" class="form" id="email">
+			    <input class="form-control" type="email" class="form" id="email">
+			  	<button class="form-control" type="submit" class="btn btn-default">Submit</button>
+			  </div>
+			</form> 
+        </td>
+        <td>Not Captured</td>
+      </tr>
+      <tr class="warning">
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 7</button></td>
+        <td>
+        	<form class="form-inline" action="/action_page.php">
+			  <div class="form-group">
+			    <input class="form-control" type="email" class="form" id="email">
+			  	<button class="form-control" type="submit" class="btn btn-default">Submit</button>
+			  </div>
+			</form> 
+        </td>
+        <td>Not Captured</td>
+      </tr>
+      <tr class="warning">
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 8</button></td>
+        <td>
+        	<form class="form-inline" action="/action_page.php">
+			  <div class="form-group">
+			    <input class="form-control" type="email" class="form" id="email">
+			  	<button type="submit" class="btn btn-default">Submit</button>
+			  </div>
+			</form> 
+        </td>
+        <td>Not Captured</td>
+      </tr>
+      <tr class="warning">
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 9</button></td>
+        <td>
+        	<form class="form-inline" action="/action_page.php">
+			  <div class="form-group">
+			    <input class="form-control" type="email" class="form" id="email">
+			  	<button type="submit" class="btn btn-default">Submit</button>
+			  </div>
+			</form> 
+        </td>
+        <td>Not Captured</td>
+      </tr>
+      <tr class="danger">
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 10</button></td>
+        <td>
+        	<form class="form-inline" action="/action_page.php">
+			  <div class="form-group">
+			    <input class="form-control" type="email" class="form" id="email">
+			  	<button type="submit" class="btn btn-default">Submit</button>
+			  </div>
+			</form> 
+        </td>
+        <td>Not Captured</td>
+      </tr>
+      <tr class="danger">
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 11</button></td>
+        <td>
+        	<form class="form-inline" action="/action_page.php">
+			  <div class="form-group">
+			    <input class="form-control" type="email" class="form" id="email">
+			  	<button type="submit" class="btn btn-default">Submit</button>
+			  </div>
+			</form> 
+        </td>
+        <td>Not Captured</td>
+      </tr>
+      <tr class="danger">
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 12</button></td>
+        <td>
+        	<form class="form-inline" action="/action_page.php">
+			  <div class="form-group">
+			    <input class="form-control" type="email" class="form" id="email">
+			  	<button type="submit" class="btn btn-default">Submit</button>
+			  </div>
+			</form> 
+        </td>
+        <td>Not Captured</td>
+      </tr>
+      <tr class="danger">
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 13</button></td>
+        <td>
+        	<form class="form-inline" action="/action_page.php">
+			  <div class="form-group">
+			    <input class="form-control" type="email" class="form" id="email">
+			  	<button type="submit" class="btn btn-default">Submit</button>
+			  </div>
+			</form> 
+        </td>
+        <td>Not Captured</td>
+      </tr>
+      <tr class="danger">
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 14</button></td>
+        <td>
+        	<form class="form-inline" action="/action_page.php">
+			  <div class="form-group">
+			    <input class="form-control" type="email" class="form" id="email">
+			  	<button type="submit" class="btn btn-default">Submit</button>
+			  </div>
+			</form> 
+        </td>
+        <td>Not Captured</td>
+      </tr>
+      <tr class="danger">
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 15</button></td>
+        <td>
+        	<form class="form-inline" action="/action_page.php">
+			  <div class="form-group">
+			    <input class="form-control" type="email" class="form" id="email">
 			  	<button type="submit" class="btn btn-default">Submit</button>
 			  </div>
 			</form> 
@@ -183,10 +281,8 @@
       </tr>
     </tbody>
   </table>
-
 </div>
 </div>
 
 </body>
-
 </html>
