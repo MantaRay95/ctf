@@ -16,6 +16,7 @@
     }
     img {
         width: 20%;
+        pointer-events: none;
     }
 </style>
 <style>
@@ -66,6 +67,7 @@
         padding: 10px;
     }
 
+
 </style>
 
 
@@ -100,6 +102,7 @@
 
             </div>
         </div>
+    </div>
 </nav>
 
 
@@ -111,25 +114,28 @@
         <div class="console">
             <h1 style><strong><font size="20"> "Level 8!"</font></strong></h1></strong>
 
-            <h3 style="padding:10px 10px 10px 10px; background-color:#ffffff;"> I dont know about this level sorry for that. <br><br>
-                <p align="center">
+            <h4 style="padding:10px 10px 10px 10px; background-color:#ffffff;" align="center" > <strong>I will give my hash value in SHA-256 to verify</strong> <br><br>21e5bcfefe33d074cef57c38008e53d49ac21e9d9fb2a3f111a7d9b07eabc267 <br><br>
+                <strong><p align="center">
                 <img src="fingerprint.png" alt="" width="128" height="128">
                 <img src="signature.png" alt="" width="128" height="128">
                 <img src="Retina-scan.jpg" alt="" width="128" height="128">
                 <img src="user-check.png" alt="" width="128" height="128"></p><br>
-                <form class="form-inline"  action="verify1.php" method="post">
+                <p align="center">Images : <a href="signature.zip">Download zip</a></p>
+                <p align="center">The hash of the zip itself is the zip password. </p><br>
+                <form class="form-inline"  action="verify8.php" method="post">
                     <div class="form-group">
                         <label class="sr-only">Email</label>
-                        <p class="form-control-static">Image Name</p>
+                        <p class="form-control-static">What is the hash of the Signature image : </p>
                     </div>
                     <div class="form-group mx-sm-3">
                         <label for="inputPassword2" class="sr-only">password</label>
-                        <input type="text" class="form-control" id="inputPassword2" name="inputPassword2" placeholder="key" required>
+                        <input type="text" class="form-control" id="inputPassword2" name="inputPassword2" placeholder="hash" required>
                     </div>
-                    <button type="submit" class="btn btn-primary">submit keyword</button>
-                </form>
+                    <button type="submit" class="btn btn-primary">submit hash</button>
+                </form><br>
 
-            </h3>
+                </strong>
+            </h4>
 
         </div>
 
