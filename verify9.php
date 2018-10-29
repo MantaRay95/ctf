@@ -45,7 +45,7 @@ if ($m[5]=="ac3478d69a3c81fa62e60f5c3696165a4e5e6ac41b6453892473a467d07372d45eb0
 }
 if (sha1($str)=="c617898b1f6f50f9e39566019869c569f2ae4b89")
 {
-    header('Location: http://localhost/ctf/level10.html');
+    header('Location: http://localhost/ctf/level9verify.html');
     exit;
 }
 

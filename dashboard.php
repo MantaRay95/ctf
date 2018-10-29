@@ -214,7 +214,14 @@
 			  </div>
 			</form> 
         </td>
-        <td>Not Captured</td>
+          <td><?php
+              $cookie_name5="a1bc2bda417242d32a12ec976c80400454c26ee3";
+              if(isset($_COOKIE[$cookie_name5])) {
+                  print 'Captured';
+              } else {
+                  print 'Not Captured';
+              }
+              ?></td>
       </tr>
       <tr class="warning">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level7.html';">Level 7</button></td>
@@ -226,46 +233,101 @@
 			  </div>
 			</form> 
         </td>
-        <td>Not Captured</td>
+          <td><?php
+              $cookie_name5="a1bc2bda417242d32a12ec976c80400454c26ee3";
+              if(isset($_COOKIE[$cookie_name5])) {
+                  print 'Captured';
+              } else {
+                  print 'Not Captured';
+              }
+              ?></td>
       </tr>
       <tr class="warning">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level8.html';">Level 8</button></td>
         <td>
-        	<form class="form-inline" action="/action_page.php">
-			  <div class="form-group">
-			    <input class="form-control" type="email" class="form" id="email">
-			  	<button type="submit" class="btn btn-default">Submit</button>
-			  </div>
+        	<form class="form-inline" action="validate.php" method="POST">
+                <div class="form-group">
+                    <input type=hidden name="level_id" value=8>
+                    <input type=hidden name="level_code" value="lvl08">
+                    <input class="form-control" type="text" class="form" name="flag_unvalidated">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
 			</form> 
         </td>
-        <td>Not Captured</td>
+          <td><?php
+              $cookie_name8="690199ec82648a97b512499c2b2c05cb36fda996";
+              if(isset($_COOKIE[$cookie_name8])) {
+                  print 'Captured';
+              } else {
+                  print 'Not Captured';
+              }
+              ?></td>
       </tr>
       <tr class="warning">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level9.html';">Level 9</button></td>
         <td>
-        	<form class="form-inline" action="/action_page.php">
-			  <div class="form-group">
-			    <input class="form-control" type="email" class="form" id="email">
-			  	<button type="submit" class="btn btn-default">Submit</button>
-			  </div>
+        	<form class="form-inline" action="validate.php" method="POST">
+                <div class="form-group">
+                    <input type=hidden name="level_id" value=9>
+                    <input type=hidden name="level_code" value="lvl09">
+                    <input class="form-control" type="text" class="form" name="flag_unvalidated">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
 			</form> 
         </td>
-        <td>Not Captured</td>
+          <td><?php
+              $cookie_name9="f704ff9ceaf3a70e323ece3d4004edc413ba7626";
+              if(isset($_COOKIE[$cookie_name9])) {
+                  print 'Captured';
+              } else {
+                  print 'Not Captured';
+              }
+              ?></td>
       </tr>
       <tr class="danger">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level10.html';">Level 10</button></td>
         <td>
-        	<form class="form-inline" action="/action_page.php">
-			  <div class="form-group">
-			    <input class="form-control" type="email" class="form" id="email">
-			  	<button type="submit" class="btn btn-default">Submit</button>
-			  </div>
-			</form> 
+            <form class="form-inline" action="validate.php" method="POST">
+                <div class="form-group">
+                    <input type=hidden name="level_id" value=10>
+                    <input type=hidden name="level_code" value="lvl10">
+                    <input class="form-control" type="text" class="form" name="flag_unvalidated">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+            </form>
         </td>
-        <td>Not Captured</td>
+          <td><?php
+              $cookie_name10="a1bc2bda417242d32a12ec976c80400454c26ee3";
+              if(isset($_COOKIE[$cookie_name10])) {
+                  print 'Captured';
+              } else {
+                  print 'Not Captured';
+              }
+              ?></td>
       </tr>
       <tr class="danger">
-        <td><button type="button" class="btn btn-primary" onclick="location.href='level11.html';">Level 11</button></td>
+        <td><button type="button" class="btn btn-primary" onclick="location.href='http://localhost/ctf/level11/';">Level 11</button></td>
+        <td>
+            <form class="form-inline" action="validate.php" method="POST">
+                <div class="form-group">
+                    <input type=hidden name="level_id" value=11>
+                    <input type=hidden name="level_code" value="lvl11">
+                    <input class="form-control" type="text" class="form" name="flag_unvalidated">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+            </form>
+        </td>
+          <td><?php
+              $cookie_name11="b0606fb5f65b5b0be6a9834c73218301b87236de";
+              if(isset($_COOKIE[$cookie_name11])) {
+                  print 'Captured';
+              } else {
+                  print 'Not Captured';
+              }
+              ?></td>
+      </tr>
+      <tr class="danger">
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level2.html';">Level 12</button></td>
         <td>
         	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
@@ -274,10 +336,17 @@
 			  </div>
 			</form> 
         </td>
-        <td>Not Captured</td>
+          <td><?php
+              $cookie_name5="a1bc2bda417242d32a12ec976c80400454c26ee3";
+              if(isset($_COOKIE[$cookie_name5])) {
+                  print 'Captured';
+              } else {
+                  print 'Not Captured';
+              }
+              ?></td>
       </tr>
       <tr class="danger">
-        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 12</button></td>
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level3.html';">Level 13</button></td>
         <td>
         	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
@@ -286,10 +355,17 @@
 			  </div>
 			</form> 
         </td>
-        <td>Not Captured</td>
+          <td><?php
+              $cookie_name5="a1bc2bda417242d32a12ec976c80400454c26ee3";
+              if(isset($_COOKIE[$cookie_name5])) {
+                  print 'Captured';
+              } else {
+                  print 'Not Captured';
+              }
+              ?></td>
       </tr>
       <tr class="danger">
-        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 13</button></td>
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level4.html';">Level 14</button></td>
         <td>
         	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
@@ -298,10 +374,17 @@
 			  </div>
 			</form> 
         </td>
-        <td>Not Captured</td>
+          <td><?php
+              $cookie_name5="a1bc2bda417242d32a12ec976c80400454c26ee3";
+              if(isset($_COOKIE[$cookie_name5])) {
+                  print 'Captured';
+              } else {
+                  print 'Not Captured';
+              }
+              ?></td>
       </tr>
       <tr class="danger">
-        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 14</button></td>
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level5.html';">Level 15</button></td>
         <td>
         	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
@@ -310,19 +393,14 @@
 			  </div>
 			</form> 
         </td>
-        <td>Not Captured</td>
-      </tr>
-      <tr class="danger">
-        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 15</button></td>
-        <td>
-        	<form class="form-inline" action="/action_page.php">
-			  <div class="form-group">
-			    <input class="form-control" type="email" class="form" id="email">
-			  	<button type="submit" class="btn btn-default">Submit</button>
-			  </div>
-			</form> 
-        </td>
-        <td>Not Captured</td>
+          <td><?php
+              $cookie_name5="a1bc2bda417242d32a12ec976c80400454c26ee3";
+              if(isset($_COOKIE[$cookie_name5])) {
+                  print 'Captured';
+              } else {
+                  print 'Not Captured';
+              }
+              ?></td>
       </tr>
     </tbody>
   </table>
