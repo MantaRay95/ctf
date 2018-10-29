@@ -288,25 +288,8 @@
         <td><button type="button" class="btn btn-primary" onclick="location.href='level10.html';">Level 10</button></td>
         <td>
             <form class="form-inline" action="validate.php" method="POST">
-<<<<<<< HEAD
+
                 <div class="form-group">
-                    <input type=hidden name="level_id" value=10>
-                    <input type=hidden name="level_code" value="lvl10">
-                    <input class="form-control" type="text" class="form" name="flag_unvalidated">
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </div>
-            </form>
-        </td>
-          <td><?php
-              $cookie_name10="a1bc2bda417242d32a12ec976c80400454c26ee3";
-              if(isset($_COOKIE[$cookie_name10])) {
-                  print 'Captured';
-              } else {
-                  print 'Not Captured';
-              }
-              ?></td>
-=======
-              <div class="form-group">
                 <input type=hidden name="level_id" value=10>
                 <input type=hidden name="level_code" value="lvl10">
                 <input class="form-control" type="text" class="form" name="flag_unvalidated">
@@ -322,7 +305,7 @@
               print 'Not Captured';
             }
         ?></td>
->>>>>>> 82c2684c5f33102070dadf2b3c04c31d60e13374
+
       </tr>
       <tr class="danger">
         <td><button type="button" class="btn btn-primary" onclick="location.href='http://localhost/ctf/level11/';">Level 11</button></td>
