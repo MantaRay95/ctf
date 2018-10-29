@@ -6,7 +6,7 @@
 $lvlstatus="flag_captured";
 $val_string=$_POST["flag_unvalidated"].$_POST["level_code"].$lvlstatus;
 $flagid=(int)$_POST["level_id"];
-$flags=array("error",sha1("flag1"),sha1("flag2"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"));
+$flags=array("error",sha1("flag1"),sha1("flag2"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),"16b05537dcd7cecbbf37a3773cd1365e01178611",sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"),sha1("flag3"));
 
 //echo sha1($_POST["level_code"])
 //echo $flagid;

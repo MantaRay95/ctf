@@ -255,14 +255,23 @@
       <tr class="danger">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level10.html';">Level 10</button></td>
         <td>
-        	<form class="form-inline" action="/action_page.php">
-			  <div class="form-group">
-			    <input class="form-control" type="email" class="form" id="email">
-			  	<button type="submit" class="btn btn-default">Submit</button>
-			  </div>
-			</form> 
+            <form class="form-inline" action="validate.php" method="POST">
+              <div class="form-group">
+                <input type=hidden name="level_id" value=10>
+                <input type=hidden name="level_code" value="lvl10">
+                <input class="form-control" type="text" class="form" name="flag_unvalidated">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
+            </form> 
         </td>
-        <td>Not Captured</td>
+        <td><?php
+            $cookie_name10="327ab1ebb4263a6d20ef5897949b170bc9297e9b";
+            if(isset($_COOKIE[$cookie_name10])) {
+              print 'Captured';
+            } else {
+              print 'Not Captured';
+            }
+        ?></td>
       </tr>
       <tr class="danger">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level11.html';">Level 11</button></td>

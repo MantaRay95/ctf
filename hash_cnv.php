@@ -1,5 +1,5 @@
 <?php
 
-echo sha1("lvl05");
+echo sha1("fyot{CYBERFORCE}");
 
 ?>

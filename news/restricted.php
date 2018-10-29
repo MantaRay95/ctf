@@ -80,7 +80,7 @@
                             <div class="row text-center pad-top">
                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
                       <div class="div-square">
-                           <a href="blank.html" >
+                           <a href="functions/keygen.php" >
  <i class="fa fa-circle-o-notch fa-5x"></i>
                       <h4>Encryption</h4>
                       </a>
@@ -91,7 +91,7 @@
                  
                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
                       <div class="div-square">
-                           <a href="communications.html" >
+                           <a href="functions/channel.php" >
  <i class="fa fa-envelope-o fa-5x"></i>
                       <h4>Communications</h4>
                       </a>
@@ -145,7 +145,7 @@
                  
                  <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
                       <div class="div-square">
-                           <a href="blank.html" >
+                           <a href="functions/policy.html" >
  <i class="fa fa-clipboard fa-5x"></i>
                       <h4>Documents</h4>
                       </a>
@@ -165,7 +165,7 @@
                   </div>
                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
                       <div class="div-square">
-                           <a href="blank.html" >
+                           <a href="functions/chat.php" >
  <i class="fa fa-wechat fa-5x"></i>
                       <h4>Officer Chat</h4>
                       </a>
