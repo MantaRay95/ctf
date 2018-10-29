@@ -81,13 +81,13 @@
 				        <th>Mission Jan 8</th>
 				      </tr>				    
 				      <tr>
-				        <td><a href="mis_temp_tree_comm_capt_002.rar">Download</a></td>				      
+				        <td><a href="comm/mission/mis_temp_tree_comm_capt_002.rar">Download</a></td>				      
 				      </tr>
 				      <tr>
-				        <td><a href="mis_temp_tree_comm_capt_001.rar">Download</a></td>				        
+				        <td><a href="comm/mission/mis_temp_tree_comm_capt_001.rar">Download</a></td>				        
 				      </tr>
 				      <tr>
-				        <td><a href="mis_temp_tree_comm_capt_003.rar">Download</a></td>				        
+				        <td><a href="comm/mission/mis_temp_tree_comm_capt_003.rar">Download</a></td>				        
 				      </tr>				    
 				  </table>
 
@@ -113,13 +113,13 @@
 				        <th>Mission Bond</th>
 				      </tr>				    
 				      <tr>
-				        <td><a href="Surveilance_report_002.rar">Download</a></td>				      
+				        <td><a href="comm/surveilance/Surveilance_report_002.rar">Download</a></td>				      
 				      </tr>
 				      <tr>
-				        <td><a href="Surveilance_report_001.rar">Download</a></td>				        
+				        <td><a href="comm/surveilance/Surveilance_report_001.rar">Download</a></td>				        
 				      </tr>
 				      <tr>
-				        <td><a href="Surveilance_report_003.rar">Download</a></td>				        
+				        <td><a href="comm/surveilance/Surveilance_report_003.rar">Download</a></td>				        
 				      </tr>				    
 				  </table>
 
@@ -145,13 +145,13 @@
 				        <th>Mission Cashew</th>
 				      </tr>				    
 				      <tr>
-				        <td><a href="mission_report_puppet_102.rar">Download</a></td>				      
+				        <td><a href="comm/mission/mission_report_puppet_102.rar">Download</a></td>				      
 				      </tr>
 				      <tr>
-				        <td><a href="mission_report_puppet_103.rar">Download</a></td>				        
+				        <td><a href="comm/mission/mission_report_puppet_103.rar">Download</a></td>				        
 				      </tr>
 				      <tr>
-				        <td><a href="mission_report_puppet_101.rar">Download</a></td>				        
+				        <td><a href="comm/mission/mission_report_puppet_101.rar">Download</a></td>				        
 				      </tr>				    
 				  </table>
 			</div>
