@@ -215,8 +215,8 @@
 			</form> 
         </td>
           <td><?php
-              $cookie_name5="a1bc2bda417242d32a12ec976c80400454c26ee3";
-              if(isset($_COOKIE[$cookie_name5])) {
+              $cookie_name6="";
+              if(isset($_COOKIE[$cookie_name6])) {
                   print 'Captured';
               } else {
                   print 'Not Captured';
@@ -234,8 +234,8 @@
 			</form> 
         </td>
           <td><?php
-              $cookie_name5="a1bc2bda417242d32a12ec976c80400454c26ee3";
-              if(isset($_COOKIE[$cookie_name5])) {
+              $cookie_name7="";
+              if(isset($_COOKIE[$cookie_name7])) {
                   print 'Captured';
               } else {
                   print 'Not Captured';
