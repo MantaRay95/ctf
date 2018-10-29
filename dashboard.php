@@ -183,17 +183,26 @@
             }
         ?></td>
       </tr>
-      <tr class="warning">
+      <tr class="info">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level5.html';">Level 5</button></td>
         <td>
-        	<form class="form-inline" action="/action_page.php">
-			  <div class="form-group">
-			    <input class="form-control" type="email" class="form" id="email">
-			  	<button type="submit" class="btn btn-default">Submit</button>
-			  </div>
-			</form> 
+            <form class="form-inline" action="validate.php" method="POST">
+              <div class="form-group">
+                <input type=hidden name="level_id" value=5>
+                <input type=hidden name="level_code" value="lvl05">
+                <input class="form-control" type="text" class="form" name="flag_unvalidated">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
+            </form> 
         </td>
-        <td>Not Captured</td>
+        <td><?php
+            $cookie_name5="a1bc2bda417242d32a12ec976c80400454c26ee3";
+            if(isset($_COOKIE[$cookie_name5])) {
+              print 'Captured';
+            } else {
+              print 'Not Captured';
+            }
+        ?></td>
       </tr>
       <tr class="warning">
         <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 6</button></td>
@@ -208,7 +217,7 @@
         <td>Not Captured</td>
       </tr>
       <tr class="warning">
-        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 7</button></td>
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level7.html';">Level 7</button></td>
         <td>
         	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
@@ -220,7 +229,7 @@
         <td>Not Captured</td>
       </tr>
       <tr class="warning">
-        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 8</button></td>
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level8.html';">Level 8</button></td>
         <td>
         	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
@@ -232,7 +241,7 @@
         <td>Not Captured</td>
       </tr>
       <tr class="warning">
-        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 9</button></td>
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level9.html';">Level 9</button></td>
         <td>
         	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
@@ -244,7 +253,7 @@
         <td>Not Captured</td>
       </tr>
       <tr class="danger">
-        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 10</button></td>
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level10.html';">Level 10</button></td>
         <td>
         	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
@@ -256,7 +265,7 @@
         <td>Not Captured</td>
       </tr>
       <tr class="danger">
-        <td><button type="button" class="btn btn-primary" onclick="location.href='level6.html';">Level 11</button></td>
+        <td><button type="button" class="btn btn-primary" onclick="location.href='level11.html';">Level 11</button></td>
         <td>
         	<form class="form-inline" action="/action_page.php">
 			  <div class="form-group">
